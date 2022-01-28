@@ -1,0 +1,22 @@
+.sideMenu{
+    height: 100%;
+    width: 200px;
+    border-right: 1px solid black;
+    /* position: relative; */
+}
+.item{
+    margin: 5px 5px 5px 5px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: gainsboro;
+}
+.item>label{
+    cursor: pointer;
+}
